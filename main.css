@@ -8,7 +8,7 @@ div
     z-index: 1;
     height:40px;
     width: 98%;
-    background-color: #668284;
+    background-color:dimgray;
     margin-bottom: 10px
     }
 
@@ -16,18 +16,19 @@ div
     float:left;
 	margin-left: 20px;
 	padding-bottom: 10px;
-	font-size: 16px;
+	font-size: 18px;
+    font-weight: bolder;
 	font-family: Verdana, sans-serif;
-	color: #ffffff;
+	color:gold;
 }
 
 #email{
     float:right;
     margin-right: 20px;
 	padding-bottom: 10px;
-	font-size: 16px;
+	font-size: 15px;
 	font-family: Verdana, sans-serif;
-	color: #ffffff;
+	color: lightyellow;
 }
 
 #contact
@@ -52,8 +53,8 @@ a:hover {
     margin-left: 14%;*/
     height: auto;
     width: 99%;
-    background-color: #E3EDD8;
-    }
+    background-color:lightcyan
+}
 
     
 #footer
@@ -61,30 +62,33 @@ a:hover {
     height:40px;
     clear:both;
     position: relative;
-    background-color: #C1E3E1;
+    background-color: rgb(150, 147, 147);
     }
     
-h3
+#p1
 {
-    text-decoration: underline;
-    }
+    font-weight: bold;
+    font-size: larger;
+    font-style:italic;
+    color:rgb(75, 73, 73);
+}
 
 
 table
 {
-    border: 1px dashed black;
+    border: 2px dotted black;
     }
 td
 {
     padding: 2px;
-    border: 1px solid #E88741;
+    border: 1px solid darkgrey;
     }
 
 #company-name
 {
     font-weight:bold;
+    font-size: large;
     }
-
 
 
 #heading
